@@ -1,4 +1,5 @@
-
+var Gpio = require('onoff').Gpio;
+var LED = new Gpio(4, 'out');
 /**
  * Setup
  */
@@ -81,6 +82,9 @@ function rollAll() {
 				const winCls = indexes[0] == indexes[2] ? "win2" : "win1";
 				document.querySelector(".slots").classList.add(winCls);
 				setTimeout(() => document.querySelector(".slots").classList.remove(winCls), 2000)
+			}
+			else {
+
 			}
 		
 			// Again!
