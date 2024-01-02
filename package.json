@@ -1,0 +1,22 @@
+{
+  "name": "sherbymab2k24",
+  "version": "1.0.0",
+  "description": "Machine a boire",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simBrad/SherbyMAB2k24.git"
+  },
+  "author": "Sherby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simBrad/SherbyMAB2k24/issues"
+  },
+  "homepage": "https://github.com/simBrad/SherbyMAB2k24#readme",
+  "devDependencies": {
+    "webpack": "^5.89.0"
+  }
+}
